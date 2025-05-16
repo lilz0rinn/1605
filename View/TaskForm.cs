@@ -44,7 +44,7 @@ namespace TaskManager.View
 
         private void lstTasks_ItemChecked(object sender, ItemCheckedEventArgs e)
         {
-            if (_isUpdatingList) return; // íå ðåàãóºìî ï³ä ÷àñ îíîâëåííÿ
+            if (_isUpdatingList) return;
 
             if (e.Item.Tag is TaskItem task)
             {
